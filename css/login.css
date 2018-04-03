@@ -1,0 +1,76 @@
+body {
+  background: #eceff1; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  background-image:url(../images/44.jpg);
+  direction: rtl; }
+
+/* ---------------------------  variables ------------------------------------*/
+.send, .login form input[type="submit"] {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+/* ------------------------------------------  frame work ---------------------------------------------*/
+.send {
+  background: #14b582;
+  color: #fff;
+  width: 200px;
+  font-size: 23px;
+  cursor: pointer;
+  height: 50px;
+  border: 1px solid #14b582;
+  border-radius: 5px; }
+  .send:hover {
+    background: #08a272; }
+
+ul {
+  padding-right: 0; }
+
+.login {
+  background-color: #fff;
+  box-shadow: 0 9px 22px rgba(38, 50, 56, 0.15);
+  border-radius: 5px;
+  padding: 20px 0 0;
+  width: 470px;
+  margin: 100px auto; }
+  .login h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin: 10px 0 50px;
+    border-bottom: 1px solid #e2e2e2; }
+  .login form .user-login {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    height: 55px;
+    padding-right: 20px;
+    background: #eceff1;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #cfd8dc; }
+    .login form .user-login:focus {
+      background: #fff;
+      border-color: #000000bd; }
+  .login form input[type="submit"] {
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, #14b582 0, #089e6f);
+    margin-top: 30px;
+    border-radius: 0; }
+    .login form input[type="submit"]:hover {
+      background: linear-gradient(180deg, #089e6f 0, #14b582); }
+  .login form .warn {
+    color: #e41a1a;
+    font-size: 16px;
+    display: none; }
+  .login form .wrong-input {
+    border: 1px solid #e41a1a; }
+
+/*# sourceMappingURL=login.css.map */
